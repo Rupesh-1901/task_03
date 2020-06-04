@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.task_03">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".mainactivity2"></activity>
+        <activity android:name=".backpaper" />
+        <activity android:name=".subjects2" />
+        <activity android:name=".subjects" />
+        <activity android:name=".dashboard2" />
+        <activity android:name=".timetable" />
+        <activity android:name=".syllabus" />
+        <activity android:name=".academics" />
+        <activity android:name=".libraryfine" />
+        <activity android:name=".project" />
+        <activity android:name=".homework" />
+        <activity android:name=".todo" />
+        <activity android:name=".recorder" />
+        <activity android:name=".calculator" />
+        <activity android:name=".dashboard" />
+        <activity android:name=".login" />
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
